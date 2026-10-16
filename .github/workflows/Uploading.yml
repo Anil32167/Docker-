@@ -59,7 +59,7 @@ jobs:
 
     - name: Push Docker image
       if: github.event_name == 'push'
-      run: docker push nameisanil/ani_docker:hiQode
+      run: docker push nameisanil/ani_docker:hiqode
 
   dependency-submission:
 
